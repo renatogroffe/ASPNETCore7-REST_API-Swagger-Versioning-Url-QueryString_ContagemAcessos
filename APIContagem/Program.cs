@@ -63,7 +63,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI(options =>
 {
-    // Geracaoo de um endpoint do Swagger para cada versao descoberta
+    // Geracao de um endpoint do Swagger para cada versao descoberta
     foreach (var description in
         app.Services.GetRequiredService<IApiVersionDescriptionProvider>().ApiVersionDescriptions)
     {
