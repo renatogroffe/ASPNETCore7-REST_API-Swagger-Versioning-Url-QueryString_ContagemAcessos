@@ -3,7 +3,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace APIContagem;
+namespace APIContagem.Versioning;
 
 /// <summary>
 /// Configures the Swagger generation options.

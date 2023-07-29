@@ -3,7 +3,7 @@ using Microsoft.OpenApi.Models;
 using Swashbuckle.AspNetCore.SwaggerGen;
 using System.Text.Json;
 
-namespace APIContagem;
+namespace APIContagem.Versioning;
 
 /// <summary>
 /// Represents the Swagger/Swashbuckle operation filter used to document the implicit API version parameter.
